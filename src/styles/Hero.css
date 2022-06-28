@@ -1,0 +1,93 @@
+.bg-main {
+  background-color: #0f3750;
+}
+.banner-image {
+  height: 92vh;
+  width: 100vw;
+  background-image: linear-gradient(19deg, #0f3750eb 0%, #3eb5cbb3 100%),
+    url("https://source.unsplash.com/XT5OInaElMw/1600x900");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+header.header2 .text-container {
+  position: absolute;
+  display: block;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: capitalize;
+}
+.text-container h2 {
+  font-size: 43px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.header-hero {
+}
+.header-hero ion-icon {
+  font-size: 300px;
+  animation: bounce infinite;
+  animation-duration: 2s;
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #00bcd4;
+}
+/* Media Query for devices withi coarse pointers and no hover functionality */
+
+/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black
+      no-repeat center center scroll;
+  }
+
+  header video {
+    display: none;
+  }
+}
