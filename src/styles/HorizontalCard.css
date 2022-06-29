@@ -1,0 +1,32 @@
+.h__card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+img.card__img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.card__body {
+  padding: 4px 0;
+  font-size: 0.8rem;
+  color: #878480;
+}
+.card__title {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  color: #422424;
+}
+.card__text {
+}
+.custom___btn {
+  text-decoration: none;
+  background: #6b463f;
+  border-radius: 15px;
+  padding: 3px 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.7rem;
+}

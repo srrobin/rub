@@ -5,352 +5,93 @@ const NewsCard = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <div className="card card-01">
-              <img
-                className="card-img-top"
-                src="https://kielarowski.files.wordpress.com/2015/11/street-art-in-dhaka-university-bangladesh-photo-by-alvi-navib-ornab.jpg"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="card card-01">
-              <img
-                className="card-img-top"
-                src="https://kielarowski.files.wordpress.com/2015/11/street-art-in-dhaka-university-bangladesh-photo-by-alvi-navib-ornab.jpg"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="card card-01">
-              <img
-                className="card-img-top"
-                src="https://kielarowski.files.wordpress.com/2015/11/street-art-in-dhaka-university-bangladesh-photo-by-alvi-navib-ornab.jpg"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="card card-01">
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVogR_fw-C5sa56suwHtRJqdl63cC6iSRgzw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card card-01">
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVogR_fw-C5sa56suwHtRJqdl63cC6iSRgzw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h3 className="card-title">Card title</h3>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card card-01">
-              <img
-                className="card-img-top"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVogR_fw-C5sa56suwHtRJqdl63cC6iSRgzw&usqp=CAU"
-                alt="Card image cap"
-              />
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* <div className="col-md-4">
-            <div className="card card-01">
-              <div
-                id="carouselExampleControls"
-                className="carousel slide"
-                data-ride="carousel"
-              >
-                <div className="carousel-inner" role="listbox">
-                  <div className="carousel-item active">
-                    <img
-                      className="d-block img-fluid"
-                      src="https://www.imago-images.com/bild/st/0080495858/w.jpg"
-                      alt="First slide"
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="d-block img-fluid"
-                      src="https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?h=350&auto=compress&cs=tinysrgb"
-                      alt="Second slide"
-                    />
-                  </div>
-                  <div className="carousel-item">
-                    <img
-                      className="d-block img-fluid"
-                      src="https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?h=350&auto=compress&cs=tinysrgb"
-                      alt="Third slide"
-                    />
-                  </div>
-                </div>
-                <a
-                  className="carousel-control-prev"
-                  href="#carouselExampleControls"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    className="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="sr-only">Previous</span>
-                </a>
-                <a
-                  className="carousel-control-next"
-                  href="#carouselExampleControls"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    className="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span className="sr-only">Next</span>
-                </a>
-              </div>
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-user-circle-o"></i>
-                </span>
-                <h4 className="card-title">Card title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="col-md-4">
-            <div className="card card-01">
-              <div className="profile-box">
+            <div className="card">
+              <a href="#">
                 <img
-                  className="card-img-top rounded-circle"
-                  src="https://avatars0.githubusercontent.com/u/2575262?s=460&v=4"
+                  className="card-img-top"
+                  src="https://images.unsplash.com/photo-1535025639604-9a804c092faa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cb0ceb620f241feb2f859e273634393&auto=format&fit=crop&w=500&q=80"
                   alt="Card image cap"
                 />
-              </div>
-              <div className="card-body text-center">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">Caroline Rodrigues</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <span className="social-box">
-                  <a href="#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-google-plus"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-dribbble"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-behance"></i>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="col-md-4">
-            <div className="card card-01">
-              <div className="embed-responsive embed-responsive-16by9">
-                <iframe
-                  className="embed-responsive-item"
-                  src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ"
-                ></iframe>
-              </div>
-              <div className="card-body">
-                <span className="badge-box">
-                  <i className="fa fa-check"></i>
-                </span>
-                <h4 className="card-title">News title</h4>
-                <p className="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" className="btn btn-default text-uppercase">
-                  Explore
-                </a>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="col-md-4">
-            <div className="card-flipper effect__hover" data-id="1">
-              <div className="card__front">
-                <div className="card card-01">
-                  <div className="profile-box-01">
-                    <img
-                      className="card-img-top"
-                      src="https://images.pexels.com/photos/325531/pexels-photo-325531.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"
-                      alt="Card image cap"
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <span className="badge-box">
-                      <i className="fa fa-check"></i>
-                    </span>
-                    <h4 className="card-title">Maria Chiquinha</h4>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" className="btn btn-default text-uppercase">
-                      Explore
-                    </a>
-                  </div>
+                <div className="card-body">
+                  <h5 className="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p className="card-text">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                    accusantium ad alias, aliquid amet aspernatur atque culpa
+                    cum debitis dicta doloremque, dolorum ea eos et excepturi
+                    explicabo facilis harum illo impedit incidunt laborum
+                    laudantium...{" "}
+                  </p>
+                  <p className="card-text">
+                    <small class="text-muted">
+                      <i class="fas fa-eye"></i>1000 <i class="far fa-user"></i>{" "}
+                      admin <i class="fas fa-calendar-alt"></i>Jan 20, 2018{" "}
+                    </small>
+                  </p>
                 </div>
-              </div>
-              <div className="card__back">
-                <div className="card card-01">
-                  <div className="card-body text-center">
-                    <h4 className="card-title">Caroline Rodrigues</h4>
-                    <p className="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <span className="social-box">
-                      <a href="#">
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-google-plus"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-dribbble"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa fa-behance"></i>
-                      </a>
-                    </span>
-                  </div>
-                </div>
-              </div>
+              </a>
             </div>
-          </div> */}
+          </div>
 
-          {/* <div className="col-md-4">
-            <div className="card card-01 height-fix">
-              <img
-                className="card-img-top"
-                src="http://res.cloudinary.com/amritvirk23/image/upload/v1506061057/poc.jpg"
-                alt="Card image cap"
-              />
-              <div className="card-img-overlay">
-                <h4 className="card-title">
-                  <strong>Pirates of the Caribbean V</strong>
-                </h4>
-                <p className="card-text">
-                  Captain Jack Sparrow searches for the trident of Poseidon.
-                </p>
-                <p className="card-text">
-                  <a href="#" className="fa fa-bookmark-o"></a>
-                  <a className="fa fa-heart-o" href="#"></a>
-                </p>
-              </div>
+          <div className="col-md-4">
+            <div className="card">
+              <a href="#">
+                <img
+                  className="card-img-top"
+                  src="https://images.unsplash.com/photo-1535074153497-b08c5aa9c236?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2aaf944a59f16fe1fe72f5057b3a7dd&auto=format&fit=crop&w=500&q=8"
+                  alt="Card image cap"
+                  alt="Card image cap"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p className="card-text">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                    accusantium ad alias, aliquid amet aspernatur atque culpa
+                    cum debitis dicta doloremque, dolorum ea eos et excepturi
+                    explicabo facilis harum illo impedit incidunt laborum
+                    laudantium...{" "}
+                  </p>
+                  <p className="card-text">
+                    <small class="text-muted">
+                      <i class="fas fa-eye"></i>1000 <i class="far fa-user"></i>{" "}
+                      admin <i class="fas fa-calendar-alt"></i>Jan 20, 2018{" "}
+                    </small>
+                  </p>
+                </div>
+              </a>
             </div>
-          </div> */}
+          </div>
+
+          <div className="col-md-4">
+            <div className="card">
+              <a href="#">
+                <img
+                  className="card-img-top"
+                  src="card-img-top"
+                  src="https://images.unsplash.com/photo-1472076638602-b1f8b1ac0b4a?ixlib=rb-0.3.5&s=63c9de7246b535be56c8eaff9b87dd89&auto=format&fit=crop&w=500&q=80"
+                  alt="Card image cap"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <p className="card-text">
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+                    accusantium ad alias, aliquid amet aspernatur atque culpa
+                    cum debitis dicta doloremque, dolorum ea eos et excepturi
+                    explicabo facilis harum illo impedit incidunt laborum
+                    laudantium...{" "}
+                  </p>
+                  <p className="card-text">
+                    <small class="text-muted">
+                      <i class="fas fa-eye"></i>1000 <i class="far fa-user"></i>{" "}
+                      admin <i class="fas fa-calendar-alt"></i>Jan 20, 2018{" "}
+                    </small>
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
