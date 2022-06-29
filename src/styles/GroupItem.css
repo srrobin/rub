@@ -1,0 +1,18 @@
+.group___image___item {
+  width: 100%;
+}
+.item__intro {
+  padding: 0.4rem 0;
+}
+.item__intro .name {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.item__intro .position {
+  font-size: 0.789rem;
+  font-weight: 500;
+}
+.item__intro .disc {
+  font-size: 0.87rem;
+  padding-top: 1rem;
+}

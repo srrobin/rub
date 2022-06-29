@@ -1,5 +1,5 @@
 const NavbarTopArea = () => {
-  return <div>NavbarTopArea</div>;
+  return <div>Navbar Top Area Login Button </div>;
 };
 
 export default NavbarTopArea;

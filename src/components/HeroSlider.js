@@ -17,6 +17,8 @@ const HeroSlider = () => {
               </div>
               <h1 class="display-4 animate__animated animate__bounce animate__delay-2s">
                 রবীন্দ্র বিশ্ববিদ্যালয়
+                <br />
+                <span style={{ color: "red" }}> -- under construction --</span>
               </h1>
             </div>
           </div>

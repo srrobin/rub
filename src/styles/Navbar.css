@@ -31,3 +31,10 @@ code {
     no-repeat;
   background-size: cover;
 }
+.nav___bg {
+  background-color: #6b463f !important;
+  color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}

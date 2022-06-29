@@ -1,6 +1,8 @@
+import "../styles/Navbar.css";
+
 const MenuItem = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm nav___bg">
       <div className="container-fluid">
         <a href="#" className="navbar-brand font-weight-bold d-block d-lg-none">
           MegaMenu
