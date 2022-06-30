@@ -30,3 +30,7 @@
 }
 .card___target___date span {
 }
+.info__carousel__area {
+  border: 0.1234rem dashed #333;
+  border-radius: 5px;
+}

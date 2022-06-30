@@ -1,9 +1,13 @@
 import "../styles/GroupItem.css";
+import Titletext from "./Titletext";
 
 const GroupIntro = () => {
   return (
-    <div className="container py-6">
+    <div className="container">
       <div className="row align-items-center">
+        <div className="col-md-12">
+          <Titletext title="Message from teacher" />
+        </div>
         <div className="col-xl-6">
           <div className="card card-body shadow border-0">
             <div className="d-inline-flex " style={{ minHeight: "392px" }}>

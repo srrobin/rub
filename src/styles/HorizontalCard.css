@@ -8,6 +8,8 @@ img.card__img {
   width: 100%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  height: 116px;
+  object-fit: cover;
 }
 .card__body {
   padding: 4px 0;

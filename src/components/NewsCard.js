@@ -1,9 +1,13 @@
 import "../styles/NewsCard.css";
+import Titletext from "./Titletext";
 const NewsCard = () => {
   return (
     <section>
       <div className="container">
         <div className="row">
+          <div className="col-md-12">
+            <Titletext title="Latest News" />
+          </div>
           <div className="col-md-4">
             <div className="card">
               <a href="#">

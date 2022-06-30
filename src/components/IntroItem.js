@@ -1,6 +1,6 @@
 const IntroItem = () => {
   return (
-    <div className="container py-5">
+    <div className="container">
       <div className="row">
         <div className="col-md-4 align-self-center">
           <div

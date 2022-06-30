@@ -1,0 +1,24 @@
+.title___text___area {
+  padding-bottom: 30px;
+}
+
+.title___text {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.title___text::before {
+  position: absolute;
+  content: "";
+  color: #6b463f;
+  height: 3px;
+  width: 65px;
+  display: block;
+  background: #6b463f;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -50%);
+}

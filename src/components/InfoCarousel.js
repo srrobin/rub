@@ -3,7 +3,7 @@ const InfoCarousel = () => {
     <div className="lc-block py-5 text-center">
       <div
         id="carouselTestimonial"
-        className="carousel slide pb-4"
+        className="carousel slide "
         data-bs-ride="carousel"
       >
         <div className="carousel-inner px-5">
@@ -12,30 +12,18 @@ const InfoCarousel = () => {
               <div className="lc-block">
                 <div editable="rich">
                   <p className="rfs-8 text-muted">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc et metus id ligula malesuada placerat sit amet quis
-                    enim. Aliquam erat volutpat. In pellentesque scelerisque
-                    auctor."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   </p>
                 </div>
               </div>
               <div className="lc-block">
                 <div className="lc-block d-inline-flex">
-                  <div className="lc-block me-3" style={{ minWidth: "72px" }}>
-                    <img
-                      className="img-fluid rounded-circle "
-                      src="https://i.pravatar.cc/96?img=6"
-                      width="72"
-                      height="72"
-                    />
-                  </div>
-                  <div className="lc-block">
-                    <div editable="rich">
-                      <p className="h5">James C. Call</p>
-
-                      <p className="text-muted">Street Artist</p>
-                    </div>
-                  </div>
+                  <p class="card-text">
+                    <small class="text-muted">
+                      <i class="fas fa-eye"></i>1000 <i class="far fa-user"></i>{" "}
+                      admin <i class="fas fa-calendar-alt"></i>Jan 20, 2018{" "}
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
@@ -45,30 +33,18 @@ const InfoCarousel = () => {
               <div className="lc-block">
                 <div editable="rich">
                   <p className="rfs-8">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc et metus id ligula malesuada placerat sit amet quis
-                    enim. Aliquam erat volutpat. In pellentesque scelerisque
-                    auctor."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   </p>
                 </div>
               </div>
               <div className="lc-block">
                 <div className="lc-block d-inline-flex">
-                  <div className="lc-block me-3" style={{ minWidth: "72px" }}>
-                    <img
-                      className="img-fluid rounded-circle "
-                      src="https://i.pravatar.cc/96?img=23"
-                      width="72"
-                      height="72"
-                    />
-                  </div>
-                  <div className="lc-block">
-                    <div editable="rich">
-                      <p className="h5">Leslie R. Oleary</p>
-
-                      <p className="text-muted">Fashion designer</p>
-                    </div>
-                  </div>
+                  <p class="card-text">
+                    <small class="text-muted">
+                      <i class="fas fa-eye"></i>1000 <i class="far fa-user"></i>{" "}
+                      admin <i class="fas fa-calendar-alt"></i>Jan 20, 2018{" "}
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
@@ -78,30 +54,18 @@ const InfoCarousel = () => {
               <div className="lc-block">
                 <div editable="rich">
                   <p className="rfs-8">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc et metus id ligula malesuada placerat sit amet quis
-                    enim. Aliquam erat volutpat. In pellentesque scelerisque
-                    auctor."
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
                   </p>
                 </div>
               </div>
               <div className="lc-block">
                 <div className="lc-block d-inline-flex">
-                  <div className="lc-block me-3" style={{ minWidth: "72px" }}>
-                    <img
-                      className="img-fluid rounded-circle "
-                      src="https://i.pravatar.cc/96?img=26"
-                      width="72"
-                      height="72"
-                    />
-                  </div>
-                  <div className="lc-block">
-                    <div editable="rich">
-                      <p className="h5">Amber E. Smith</p>
-
-                      <p className="text-muted">Patient educator&nbsp;</p>
-                    </div>
-                  </div>
+                  <p class="card-text">
+                    <small class="text-muted">
+                      <i class="fas fa-eye"></i>1000 <i class="far fa-user"></i>{" "}
+                      admin <i class="fas fa-calendar-alt"></i>Jan 20, 2018{" "}
+                    </small>
+                  </p>
                 </div>
               </div>
             </div>
