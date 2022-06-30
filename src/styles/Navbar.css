@@ -1,40 +1,26 @@
-.megamenu {
-  position: static;
-}
-
-.megamenu .dropdown-menu {
-  background: none;
-  border: none;
-  width: 100%;
-}
-
-.APP {
-  background: #eaafc8;
-  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
-  background: linear-gradient(to right, #eaafc8, #654ea3);
-  min-height: 100vh;
-}
-
-code {
-  color: #745eb1;
-  background: #fff;
-  padding: 0.1rem 0.2rem;
-  border-radius: 0.2rem;
-}
-
-.text-uppercase {
-  letter-spacing: 0.08em;
-}
-.megaimaga {
-  background: center center
-    url("https://resultbd24.com/wp-content/uploads/2020/10/rabindra-university-admission-780x470.png")
-    no-repeat;
-  background-size: cover;
-}
 .nav___bg {
   background-color: #6b463f !important;
   color: #fff !important;
 }
 .navbar-light .navbar-nav .nav-link {
   color: #fff !important;
+}
+a.custom__btn {
+  color: #fff;
+  text-decoration: none;
+  background: #bd3d20;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  padding: 9px 10px;
+  transition: all 200ms;
+}
+a.custom__btn:hover {
+  transform: scale(1.05);
+}
+.custom__btn .login___icon {
+  color: #f9f7f7;
+  font-size: 0.7234567rem;
+  margin-bottom: 4px;
 }

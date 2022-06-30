@@ -1,5 +1,7 @@
-.group___image___item {
+img.group___image___item {
+  height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 .item__intro {
   padding: 0.4rem 0;

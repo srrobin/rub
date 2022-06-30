@@ -1,222 +1,318 @@
+import { FaUserGraduate, FaUserTie } from "react-icons/fa";
 import "../styles/Navbar.css";
-
 const MenuItem = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm nav___bg">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light shadow nav___bg">
       <div className="container-fluid">
-        <a href="#" className="navbar-brand font-weight-bold d-block d-lg-none">
-          MegaMenu
+        <a class="navbar-brand" href="https://library.livecanvas.com/sections/">
+          <img
+            class="img-fluid"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Rabindra_University_Logo.svg/1200px-Rabindra_University_Logo.svg.png"
+            alt=""
+            style={{ width: "48px", height: "48px" }}
+          />
         </a>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#navbar-content"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div id="navbarSupportedContent" className="collapse navbar-collapse">
-          <ul className="navbar-nav mx-auto">
-            <li className="nav-item dropdown megamenu">
-              <a
-                id="megamneu"
-                href="#"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                className="nav-link dropdown-toggle font-weight-bold text-uppercase dropdown-toggle"
-              >
-                Mega Menu
+        <div className="collapse navbar-collapse" id="navbar-content">
+          <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                About
               </a>
-              <div
-                aria-labelledby="dropdownMenuButton1"
-                className="dropdown-menu border-0 p-0 m-0"
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
               >
-                <div className="container">
-                  <div className="row bg-white rounded-0 m-0 shadow-sm">
-                    <div className="col-lg-7 col-xl-8">
-                      <div className="p-4">
-                        <div className="row">
-                          <div className="col-lg-6 mb-4">
-                            <h6 className="font-weight-bold text-uppercase">
-                              MegaMenu heading
-                            </h6>
-                            <ul className="list-unstyled">
-                              <li className="nav-item">
-                                <a href="" className="nav-link text-small pb-0">
-                                  Unique Features
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Image Responsive
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Auto Carousel
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Newsletter Form
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-lg-6 mb-4">
-                            <h6 className="font-weight-bold text-uppercase">
-                              MegaMenu heading
-                            </h6>
-                            <ul className="list-unstyled">
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Unique Features
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Image Responsive
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Auto Carousel
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Newsletter Form
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-lg-6 mb-4">
-                            <h6 className="font-weight-bold text-uppercase">
-                              MegaMenu heading
-                            </h6>
-                            <ul className="list-unstyled">
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Unique Features
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Image Responsive
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Auto Carousel
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Newsletter Form
-                                </a>
-                              </li>
-                            </ul>
-                          </div>
-                          <div className="col-lg-6 mb-4">
-                            <h6 className="font-weight-bold text-uppercase">
-                              MegaMenu heading
-                            </h6>
-                            <ul className="list-unstyled">
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Unique Features
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Image Responsive
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Auto Carousel
-                                </a>
-                              </li>
-                              <li className="nav-item">
-                                <a
-                                  href=""
-                                  className="nav-link text-small pb-0 "
-                                >
-                                  Newsletter Form
-                                </a>
-                              </li>
-                            </ul>
+                Students
+              </a>
+              <ul className="dropdown-menu shadow">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Administration
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="blog.html">
+                    Students
+                  </a>
+                </li>
+                <li className="dropstart">
+                  <a
+                    href="#"
+                    className="dropdown-item dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                  >
+                    Research
+                  </a>
+                  <ul className="dropdown-menu shadow">
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Third level 1
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Third level 2
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Third level 3
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Third level 4
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Third level 5
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropend">
+                  <a
+                    href="#"
+                    className="dropdown-item dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    data-bs-auto-close="outside"
+                  >
+                    Submenu Right
+                  </a>
+                  <ul className="dropdown-menu shadow">
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Second level 1
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Second level 2
+                      </a>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Second level 3
+                      </a>
+                    </li>
+                    <li className="dropend">
+                      <a
+                        href="#"
+                        className="dropdown-item dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside"
+                      >
+                        Let's go deeper!
+                      </a>
+                      <ul className="dropdown-menu dropdown-submenu shadow">
+                        <li>
+                          <a className="dropdown-item" href="">
+                            {" "}
+                            Third level 1
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="">
+                            {" "}
+                            Third level 2
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="">
+                            {" "}
+                            Third level 3
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="">
+                            {" "}
+                            Third level 4
+                          </a>
+                        </li>
+                        <li className="dropend">
+                          <a
+                            href="#"
+                            className="dropdown-item dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                          >
+                            Still don't have enough? Go much deeper!
+                          </a>
+                          <ul className="dropdown-menu dropdown-submenu shadow">
+                            <li>
+                              <a className="dropdown-item" href="">
+                                {" "}
+                                Third level 1
+                              </a>
+                            </li>
+                            <li>
+                              <a className="dropdown-item" href="">
+                                {" "}
+                                Third level 2
+                              </a>
+                            </li>
+                            <li>
+                              <a className="dropdown-item" href="">
+                                {" "}
+                                Third level 3
+                              </a>
+                            </li>
+                            <li>
+                              <a className="dropdown-item" href="">
+                                {" "}
+                                Third level 4
+                              </a>
+                            </li>
+                            <li>
+                              <a className="dropdown-item" href="">
+                                {" "}
+                                Third level 5
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="">
+                        {" "}
+                        Third level 5
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Research
+              </a>
+            </li>
+            <li className="nav-item dropdown dropdown-mega position-static">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
+              >
+                Academics
+              </a>
+              <div className="dropdown-menu shadow">
+                <div className="mega-content px-4">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                        <h5>No additional JS</h5>
+                        <div className="list-group">
+                          <a className="list-group-item" href="#">
+                            Accomodations
+                          </a>
+                          <a className="list-group-item" href="#">
+                            Terms &amp; Conditions
+                          </a>
+                          <a className="list-group-item" href="#">
+                            Privacy
+                          </a>
+                        </div>
+                      </div>
+                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                        <h5>No Additional CSS</h5>
+                        <div className="card">
+                          <img
+                            src="https://images.unsplash.com/photo-1509599589979-3b5a15d2816e?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NDR8fGZvcmVzdHxlbnwwfDB8fHwxNjM0OTkxMjA3&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768"
+                            className="img-fluid"
+                            alt="image"
+                          />
+                          <div className="card-body">
+                            <p className="card-text">
+                              Some quick example text to build on the card title
+                              and make up the bulk of the card's content.
+                            </p>
                           </div>
                         </div>
                       </div>
+                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                        <h5>Lot of Pages</h5>
+                        <p>
+                          Lorem ipsum dolo sit achmet muhamed borlan de irtka.
+                        </p>
+                      </div>
+                      <div className="col-12 col-sm-12 col-md-3 py-4">
+                        <h5>Damn, so many</h5>
+                        <div className="list-group">
+                          <a className="list-group-item" href="#">
+                            Accomodations
+                          </a>
+                          <a className="list-group-item" href="#">
+                            Terms &amp; Conditions
+                          </a>
+                          <a className="list-group-item" href="#">
+                            Privacy
+                          </a>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block megaimaga"></div>
                   </div>
                 </div>
               </div>
             </li>
             <li className="nav-item">
-              <a href="" className="nav-link font-weight-bold text-uppercase">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="" className="nav-link font-weight-bold text-uppercase">
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="" className="nav-link font-weight-bold text-uppercase">
-                Contact
+              <a className="nav-link" href="#" tabindex="-1">
+                Administration
               </a>
             </li>
           </ul>
+          {/* <form className="d-flex ms-auto">
+            <div className="input-group">
+              <input
+                className="form-control border-0 mr-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button className="btn btn-primary border-0 " type="submit">
+                Search
+              </button>
+            </div>
+          </form> */}
+          <div class="ms-lg-auto">
+            <a class="custom__btn me-2  btn-sm " href="#">
+              <FaUserTie className="login___icon" /> ru login
+            </a>
+            <a class="custom__btn btn-sm " href="#">
+              <FaUserGraduate className="login___icon" /> student login
+            </a>
+          </div>
         </div>
       </div>
     </nav>
