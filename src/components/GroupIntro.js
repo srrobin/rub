@@ -1,3 +1,5 @@
+import ShowallBtn from "../components/ShowallBtn";
+import VC from "../images/f.jpg";
 import "../styles/GroupItem.css";
 import Titletext from "./Titletext";
 
@@ -6,23 +8,22 @@ const GroupIntro = () => {
     <div className="container py-6">
       <div className="row align-items-center">
         <div className="col-md-12">
-          <Titletext title="Message from teacher" />
+          <Titletext title="Message from Vice-Chancellor" />
         </div>
-        <div className="col-xl-6">
+        <div className="col-xl-6 offset-xl-3">
           <div className="card card-body shadow border-0">
-            <div className="d-inline-flex " style={{ minHeight: "392px" }}>
+            <div className="d-inline-flex " style={{ minHeight: "400px" }}>
               <div className="">
                 <div className="bg-light">
                   <img
-                    className="group___image___item"
-                    src="http://www.rub.ac.bd/global/img/vc/vcsir_picture.jpg"
+                    className="group___image___item  principal___image"
+                    src={VC}
                   />
                   <div className="item__intro">
-                    <div className="name">
-                      Professor Dr. A. S. M. Maksud Kamal
-                    </div>
+                    <div className="name">Professor Dr. Md. Shah Azam</div>
                     <div className="position">
-                      Pro-Vice Chancellor (Academic)
+                      Vice-Chancellor <br />
+                      Rabindra University, Bangladesh.
                     </div>
                     <p className="disc">
                       {" "}
@@ -34,6 +35,9 @@ const GroupIntro = () => {
                       multidisciplinary premier multidisciplinary university of
                       Bangladesh! Founded in 1921,
                     </p>
+                    <div className="col-md-12 d-flex justify-content-center align-items-center">
+                      <ShowallBtn title="read more" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -41,7 +45,7 @@ const GroupIntro = () => {
           </div>
         </div>
 
-        <div className="col-xl-6 row row-cols-1 row-cols-md-2  g-3 counter-1">
+        {/* <div className="col-xl-6 row row-cols-1 row-cols-md-2  g-3 counter-1">
           <div className="col ">
             <div className="card card-body shadow border-0">
               <div className="d-inline-flex " style={{ minHeight: "196px" }}>
@@ -133,7 +137,7 @@ const GroupIntro = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

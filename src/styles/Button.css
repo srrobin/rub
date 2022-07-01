@@ -1,0 +1,31 @@
+a.readmore__btn {
+  color: #fff;
+  text-decoration: none;
+  background: red;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  padding: 6px 10px;
+  transition: all 200ms;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+a.readmore__btn:hover {
+  transform: scale(1.05);
+}
+
+.show__all__btn {
+  text-decoration: none;
+  background: #bd3d20;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+  display: block;
+  transition: all 200ms;
+}
+.show__all__btn:hover {
+  transform: scale(1.05);
+  color: #fff;
+}

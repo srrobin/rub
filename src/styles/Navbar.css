@@ -24,3 +24,17 @@ a.custom__btn:hover {
   font-size: 0.7234567rem;
   margin-bottom: 4px;
 }
+.logo___area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main___logo {
+  width: 100px;
+}
+.logo___tittle {
+}
+.logo___tittle p {
+  padding: 0;
+  margin: 0;
+}

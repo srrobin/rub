@@ -1,5 +1,6 @@
 import "../../styles/ResearchActivitiesArea.css";
 import HorizontalCard from "../HorizontalCard";
+import ShowallBtn from "../ShowallBtn";
 import Titletext from "../Titletext";
 const ResearchActivitiesArea = () => {
   return (
@@ -26,7 +27,7 @@ const ResearchActivitiesArea = () => {
 
               <a href="#" class="list-group-item list-group-item-action">
                 <div class=" w-100 ">
-                  <h5 class="mb-1">List group item heading</h5>
+                  <h5 class="mb-1">Computer Science</h5>
                   <p class="mb-1">
                     Think positive! Read good news from all over the world.
                     Subscribe For Newsletter.
@@ -41,7 +42,7 @@ const ResearchActivitiesArea = () => {
               </a>
               <a href="#" class="list-group-item list-group-item-action">
                 <div class=" w-100 ">
-                  <h5 class="mb-1">List group item heading</h5>
+                  <h5 class="mb-1">Astronomy</h5>
                   <p class="mb-1">
                     Think positive! Read good news from all over the world.
                     Subscribe For Newsletter.
@@ -56,7 +57,7 @@ const ResearchActivitiesArea = () => {
               </a>
               <a href="#" class="list-group-item list-group-item-action">
                 <div class=" w-100 ">
-                  <h5 class="mb-1">List group item heading</h5>
+                  <h5 class="mb-1">Geography</h5>
                   <p class="mb-1">
                     Think positive! Read good news from all over the world.
                     Subscribe For Newsletter.
@@ -70,6 +71,9 @@ const ResearchActivitiesArea = () => {
                 </p>
               </a>
             </div>
+          </div>
+          <div className="col-md-12 d-flex justify-content-center align-items-center mt-4">
+            <ShowallBtn title="see all Research Activities" />
           </div>
         </div>
       </div>

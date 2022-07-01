@@ -18,3 +18,8 @@ img.group___image___item {
   font-size: 0.87rem;
   padding-top: 1rem;
 }
+.principal___image {
+  height: 320px;
+  object-fit: cover;
+  width: 100%;
+}

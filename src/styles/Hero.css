@@ -1,93 +1,72 @@
-.bg-main {
-  background-color: #0f3750;
+img.slider___image {
+  height: 70vh;
+  object-fit: cover;
 }
-.banner-image {
-  height: 92vh;
-  width: 100vw;
-  background-image: linear-gradient(19deg, #0f3750eb 0%, #3eb5cbb3 100%),
-    url("https://i.ytimg.com/vi/et2Gqp1vGqU/maxresdefault.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  position: relative;
+
+@media (max-width: 576px) {
+  img.slider___image {
+    height: 40vh;
+  }
 }
-header.header2 .text-container {
-  position: absolute;
-  display: block;
+.carousel-caption h3 {
   color: #fff;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  text-transform: capitalize;
+  font-size: 1.3rem;
 }
-.text-container h2 {
-  font-size: 43px;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-}
-
-header {
-  position: relative;
-  background-color: black;
-  height: 75vh;
-  min-height: 25rem;
-  width: 100%;
-  overflow: hidden;
-}
-
-header video {
+.carousel-caption {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  right: 58%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  z-index: 3;
+  top: 5%;
 }
-
-header .container {
+.carousel-item {
   position: relative;
-  z-index: 2;
 }
-
-header .overlay {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
-  opacity: 0.5;
+  background-color: rgb(90, 82, 82);
+  opacity: 0.4;
   z-index: 1;
 }
-
-.header-hero {
+.carousel {
+  position: relative;
+  margin-top: 0px;
 }
-.header-hero ion-icon {
-  font-size: 300px;
-  animation: bounce infinite;
-  animation-duration: 2s;
-  display: inline-block;
-  margin: 0 0.5rem;
-  color: #00bcd4;
+.wrapper___caption {
+  background: black;
+  opacity: 0.6;
+  padding: 20px;
+  border-radius: 11px;
+  text-align: left;
 }
-/* Media Query for devices withi coarse pointers and no hover functionality */
-
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url("https://i.ytimg.com/vi/et2Gqp1vGqU/maxresdefault.jpg")
-      black no-repeat center center scroll;
-  }
-
-  header video {
-    display: none;
-  }
+.wrapper___caption h3 {
+  padding: 0;
+  margin-bottom: 7px;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.list___item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.list___item li {
+  color: yellow;
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 3px 0;
+}
+.hero___icon {
+  color: red;
+  margin-right: 5px;
 }

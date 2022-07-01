@@ -1,10 +1,11 @@
+import NavbarTopArea from "../components/NavbarTopArea";
 import "../styles/Navbar.css";
 import MenuItem from "./MenuItem";
 
 const Navbar = () => {
   return (
     <>
-      {/* <NavbarTopArea /> */}
+      <NavbarTopArea />
       <MenuItem />
     </>
   );

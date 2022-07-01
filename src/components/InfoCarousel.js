@@ -12,7 +12,8 @@ const InfoCarousel = () => {
               <div className="lc-block">
                 <div editable="rich">
                   <p className="rfs-8 text-muted">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "Exchange of Eid greetings from the Vice Chancellor of
+                    Rabindra University"
                   </p>
                 </div>
               </div>
@@ -33,7 +34,8 @@ const InfoCarousel = () => {
               <div className="lc-block">
                 <div editable="rich">
                   <p className="rfs-8">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "Colorful Decoration at Shahjadpur Rabindra Kachari Bari, 3
+                    days long Rabindra Festival"
                   </p>
                 </div>
               </div>
@@ -54,7 +56,8 @@ const InfoCarousel = () => {
               <div className="lc-block">
                 <div editable="rich">
                   <p className="rfs-8">
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                    "Exchange of Eid greetings from the Vice Chancellor of
+                    Rabindra University"
                   </p>
                 </div>
               </div>

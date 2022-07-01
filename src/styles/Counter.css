@@ -1,0 +1,11 @@
+.count__number {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+.count__text {
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #725a5a;
+}

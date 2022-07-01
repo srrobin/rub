@@ -1,5 +1,6 @@
 import "../styles/UpcamingNews.css";
 import InfoCarouselArea from "./HomePageComponents/InfoCarouselArea";
+import ShowallBtn from "./ShowallBtn";
 import Titletext from "./Titletext";
 const UpcamingNews = () => {
   return (
@@ -15,8 +16,8 @@ const UpcamingNews = () => {
                 <div className="custom___card">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    ipsum dolor sit amet, consectetur adipiscing
+                    Memorandum of Understanding signed between Rabindra
+                    University and Nazrul University
                   </div>
                   <div className="card___target___date">
                     date:: <span>12.6.2022</span>
@@ -28,8 +29,8 @@ const UpcamingNews = () => {
                 <div className="custom___card">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    ipsum dolor sit amet, consectetur adipiscing
+                    Courtesy call and exchange of greetings with Hon'ble Chief
+                    Justice
                   </div>
                   <div className="card___target___date">
                     date:: <span>12.6.2022</span>
@@ -41,8 +42,8 @@ const UpcamingNews = () => {
                 <div className="custom___card">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    ipsum dolor sit amet, consectetur adipiscing t
+                    Courtesy call on the Minister of Education by the
+                    Vice-Chancellor of Rabindra University
                   </div>
                   <div className="card___target___date">
                     date:: <span>12.6.2022</span>
@@ -54,8 +55,8 @@ const UpcamingNews = () => {
                 <div className="custom___card">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    ipsum dolor sit amet, consectetur adipiscing
+                    Colorful Decoration at Shahjadpur Rabindra Kachari Bari, 3
+                    days long Rabindra Festival
                   </div>
                   <div className="card___target___date">
                     date:: <span>12.6.2022</span>
@@ -66,6 +67,9 @@ const UpcamingNews = () => {
           </div>
           <div className="col-md-4">
             <InfoCarouselArea />
+          </div>
+          <div className="col-md-12 d-flex justify-content-center align-items-center mt-4">
+            <ShowallBtn title="see all  Upcoming Events" />
           </div>
         </div>
       </div>

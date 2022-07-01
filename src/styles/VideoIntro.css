@@ -1,5 +1,5 @@
 .play___btn {
-  color: #fff;
+  color: #bd3d20;
   font-size: 4rem;
   margin-top: 1rem;
 }
@@ -10,8 +10,10 @@
   font-size: 1rem;
   font-weight: 400;
   padding: 0 26rem;
+  color: #bd3d20;
 }
 .video___intro .title {
   font-weight: 700;
   font-size: 2.5rem;
+  color: #bd3d20;
 }

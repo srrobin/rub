@@ -1,4 +1,5 @@
 import "../styles/NewsCard.css";
+import ShowallBtn from "./ShowallBtn";
 import Titletext from "./Titletext";
 const NewsCard = () => {
   return (
@@ -13,11 +14,14 @@ const NewsCard = () => {
               <a href="#">
                 <img
                   className="card-img-top"
-                  src="https://images.unsplash.com/photo-1535025639604-9a804c092faa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cb0ceb620f241feb2f859e273634393&auto=format&fit=crop&w=500&q=80"
+                  src="http://www.rub.ac.bd/global/img/Banner/VCsir_Ministry.jpg"
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <h5 className="card-title">
+                    Courtesy call on the Minister of Education by the
+                    Vice-Chancellor of Rabindra University
+                  </h5>
                   <p className="card-text">
                     {" "}
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
@@ -42,12 +46,15 @@ const NewsCard = () => {
               <a href="#">
                 <img
                   className="card-img-top"
-                  src="https://images.unsplash.com/photo-1535074153497-b08c5aa9c236?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2aaf944a59f16fe1fe72f5057b3a7dd&auto=format&fit=crop&w=500&q=8"
+                  src="http://www.rub.ac.bd/global/img/gallery/h1.jpg"
                   alt="Card image cap"
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <h5 className="card-title">
+                    Celebration Homecoming Day of Father of the Nation
+                    Bangabandhu Sheikh Mujibur Rahman
+                  </h5>
                   <p className="card-text">
                     {" "}
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
@@ -73,11 +80,14 @@ const NewsCard = () => {
                 <img
                   className="card-img-top"
                   src="card-img-top"
-                  src="https://images.unsplash.com/photo-1472076638602-b1f8b1ac0b4a?ixlib=rb-0.3.5&s=63c9de7246b535be56c8eaff9b87dd89&auto=format&fit=crop&w=500&q=80"
+                  src="http://www.rub.ac.bd/global/img/Banner/21feb_22_01.jpg"
                   alt="Card image cap"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Lorem ipsum dolor sit amet.</h5>
+                  <h5 className="card-title">
+                    Rabindra University Pays Homage to Language Martyrs' and
+                    Celebrates International Mother Language Day.
+                  </h5>
                   <p className="card-text">
                     {" "}
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
@@ -95,6 +105,9 @@ const NewsCard = () => {
                 </div>
               </a>
             </div>
+          </div>
+          <div className="col-md-12 d-flex justify-content-center align-items-center mt-4">
+            <ShowallBtn title="see all Latest News" />
           </div>
         </div>
       </div>

@@ -4,13 +4,17 @@ const Footer = () => {
       <div className="container py-5">
         <div className="row">
           <div className="col-lg-3">
-            <div className="lc-block mb-4">
+            <div className="d-flex mb-4">
               <img
                 className="img-fluid"
                 alt="logo"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Rabindra_University_Logo.svg/1200px-Rabindra_University_Logo.svg.png"
                 style={{ maxHeight: "25vh" }}
               />
+              <div className="logo___tittle">
+                <p>রবীন্দ্র বিশ্ববিদ্যালয়</p>
+                <p>Rabindra University of Bangladesh</p>
+              </div>
             </div>
             <div className="lc-block small">
               <div editable="rich">
