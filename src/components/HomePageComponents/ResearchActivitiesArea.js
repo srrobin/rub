@@ -6,7 +6,7 @@ const ResearchActivitiesArea = () => {
   return (
     <div className="area___wrapper">
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <div className="col-md-12">
             <Titletext title="Research Activities" />
           </div>

@@ -13,7 +13,7 @@ const UpcamingNews = () => {
           <div className="col-md-8">
             <div className="row">
               <div className="col-md-6">
-                <div className="custom___card">
+                <div className="custom____card">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
                     Memorandum of Understanding signed between Rabindra
@@ -26,7 +26,7 @@ const UpcamingNews = () => {
               </div>
 
               <div className="col-md-6">
-                <div className="custom___card">
+                <div className="custom____car">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
                     Courtesy call and exchange of greetings with Hon'ble Chief
@@ -39,7 +39,7 @@ const UpcamingNews = () => {
               </div>
 
               <div className="col-md-6">
-                <div className="custom___card">
+                <div className="custom____car">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
                     Courtesy call on the Minister of Education by the
@@ -52,7 +52,7 @@ const UpcamingNews = () => {
               </div>
 
               <div className="col-md-6">
-                <div className="custom___card">
+                <div className="custom____car">
                   <div className="card___title_tag">news</div>
                   <div className="card___desc">
                     Colorful Decoration at Shahjadpur Rabindra Kachari Bari, 3
