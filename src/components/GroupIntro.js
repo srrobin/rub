@@ -1,6 +1,6 @@
-import ShowallBtn from "../components/ShowallBtn";
 import VC from "../images/f.jpg";
 import "../styles/GroupItem.css";
+import ReadMoreMinibtn from "./ReadMoreMinibtn";
 import Titletext from "./Titletext";
 
 const GroupIntro = () => {
@@ -36,7 +36,7 @@ const GroupIntro = () => {
                       Bangladesh! Founded in 1921,
                     </p>
                     <div className="col-md-12 d-flex justify-content-center align-items-center">
-                      <ShowallBtn title="read more" />
+                      <ReadMoreMinibtn title="read more ... " />
                     </div>
                   </div>
                 </div>

@@ -4,7 +4,7 @@ import "../styles/Navbar.css";
 const MenuItem = () => {
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top nav___bg "
+      className="navbar navbar-expand-lg navbar-dark bg-light shadow sticky-top nav___bg "
       id="mainNav"
     >
       <div className="container-fluid">
@@ -93,7 +93,7 @@ const MenuItem = () => {
                 <div className="mega-content px-4">
                   <div className="container-fluid">
                     <div className="row">
-                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                      <div className="col-12 col-sm-4 col-md-6 py-4">
                         <h5> Academic Left Info navigation</h5>
                         <div className="list-group">
                           <a className="list-group-item" href="#">
@@ -113,7 +113,7 @@ const MenuItem = () => {
                           </a>
                         </div>
                       </div>
-                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                      {/* <div className="col-12 col-sm-4 col-md-3 py-4">
                         <h5> Academic Image</h5>
                         <div className="card">
                           <img
@@ -128,14 +128,14 @@ const MenuItem = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
-                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                      </div> */}
+                      {/* <div className="col-12 col-sm-4 col-md-3 py-4">
                         <h5>Lot of Pages</h5>
                         <p>
                           Lorem ipsum dolo sit achmet muhamed borlan de irtka.
                         </p>
-                      </div>
-                      <div className="col-12 col-sm-12 col-md-3 py-4">
+                      </div> */}
+                      <div className="col-12 col-sm-12 col-md-6 py-4">
                         <h5> Academic Right Info navigation</h5>
                         <div className="list-group">
                           <a className="list-group-item" href="#">
@@ -177,7 +177,7 @@ const MenuItem = () => {
                 <div className="mega-content px-4">
                   <div className="container-fluid">
                     <div className="row">
-                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                      <div className="col-12 col-sm-4 col-md-12 py-4">
                         <h5> Publications menu</h5>
                         <div className="list-group">
                           <a className="list-group-item" href="#">
@@ -191,7 +191,7 @@ const MenuItem = () => {
                           </a>
                         </div>
                       </div>
-                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                      {/* <div className="col-12 col-sm-4 col-md-3 py-4">
                         <h5>Publications Book</h5>
                         <div className="card">
                           <img
@@ -206,14 +206,14 @@ const MenuItem = () => {
                             </p>
                           </div>
                         </div>
-                      </div>
-                      <div className="col-12 col-sm-4 col-md-3 py-4">
+                      </div> */}
+                      {/* <div className="col-12 col-sm-4 col-md-3 py-4">
                         <h5>Lot of Pages</h5>
                         <p>
                           Lorem ipsum dolo sit achmet muhamed borlan de irtka.
                         </p>
-                      </div>
-                      <div className="col-12 col-sm-12 col-md-3 py-4">
+                      </div> */}
+                      <div className="col-12 col-sm-12 col-md-12 py-4">
                         <h5> so many</h5>
                         <div className="list-group">
                           <a className="list-group-item" href="#">

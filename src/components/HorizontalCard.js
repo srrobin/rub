@@ -4,7 +4,7 @@ const HorizontalCard = () => {
     <>
       <div className="col-md-6">
         <div className="h__card">
-          <div className="row">
+          <div className="row h__card__area">
             <div className="col-sm-6">
               <img
                 className="card__img"
@@ -28,7 +28,7 @@ const HorizontalCard = () => {
       </div>
       <div className="col-md-6">
         <div className="h__card">
-          <div className="row">
+          <div className="row h__card__area">
             <div className="col-sm-6">
               <img
                 className="card__img"
@@ -52,7 +52,7 @@ const HorizontalCard = () => {
       </div>
       <div className="col-md-6">
         <div className="h__card">
-          <div className="row">
+          <div className="row h__card__area">
             <div className="col-sm-6">
               <img
                 className="card__img"
@@ -76,7 +76,7 @@ const HorizontalCard = () => {
       </div>
       <div className="col-md-6">
         <div className="h__card">
-          <div className="row">
+          <div className="row h__card__area">
             <div className="col-sm-6">
               <img
                 className="card__img"
@@ -100,7 +100,7 @@ const HorizontalCard = () => {
       </div>
       <div className="col-md-6">
         <div className="h__card">
-          <div className="row">
+          <div className="row h__card__area">
             <div className="col-sm-6 ">
               <img
                 className="card__img"
@@ -124,7 +124,7 @@ const HorizontalCard = () => {
       </div>
       <div className="col-md-6">
         <div className="h__card">
-          <div className="row">
+          <div className="row h__card__area">
             <div className="col-sm-6">
               <img
                 className="card__img"

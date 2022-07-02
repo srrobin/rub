@@ -1,5 +1,21 @@
+.video___bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 1)
+    ),
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kachari_Bari1.jpg/1200px-Kachari_Bari1.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding: 20px;
+  background-attachment: fixed;
+}
+
 .play___btn {
-  color: #bd3d20;
+  color: #ffffff;
   font-size: 4rem;
   margin-top: 1rem;
 }
@@ -10,10 +26,10 @@
   font-size: 1rem;
   font-weight: 400;
   padding: 0 26rem;
-  color: #bd3d20;
+  color: #ffffff;
 }
 .video___intro .title {
   font-weight: 700;
   font-size: 2.5rem;
-  color: #bd3d20;
+  color: #ffffff;
 }

@@ -1,5 +1,5 @@
 img.slider___image {
-  height: 70vh;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -14,14 +14,14 @@ img.slider___image {
 }
 .carousel-caption {
   position: absolute;
-  right: 58%;
+  right: 33%;
   bottom: 1.25rem;
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
   z-index: 3;
-  top: 5%;
+  top: 15%;
 }
 .carousel-item {
   position: relative;
@@ -33,7 +33,7 @@ img.slider___image {
   height: 100%;
   width: 100%;
   background-color: rgb(90, 82, 82);
-  opacity: 0.4;
+  opacity: 0.7;
   z-index: 1;
 }
 .carousel {
@@ -41,18 +41,19 @@ img.slider___image {
   margin-top: 0px;
 }
 .wrapper___caption {
-  background: black;
-  opacity: 0.6;
-  padding: 20px;
+  /* background: black;
   border-radius: 11px;
+  opacity: 0.6; */
+  padding: 20px;
   text-align: left;
 }
 .wrapper___caption h3 {
   padding: 0;
   margin-bottom: 7px;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
+  font-weight: 900;
 }
 .list___item {
   list-style: none;
@@ -61,10 +62,12 @@ img.slider___image {
   margin-bottom: 10px;
 }
 .list___item li {
-  color: yellow;
-  font-size: 0.9rem;
+  color: gold;
+  font-size: 1.4rem;
   font-weight: 400;
   padding: 3px 0;
+  text-transform: capitalize;
+  letter-spacing: 0.01rem;
 }
 .hero___icon {
   color: red;

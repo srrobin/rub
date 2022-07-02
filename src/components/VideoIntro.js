@@ -3,29 +3,9 @@ import "../styles/VideoIntro.css";
 const VideoIntro = () => {
   return (
     <div>
-      <section
-        style={{
-          backgroundImage: " url('')",
-          backgroundPosition: " center ",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <div
-          className="d-flex text-center py-5"
-          lc-helper="background"
-          style={{
-            minHeight: " 30vh",
-            background: " rgba(0, 0, 0, 0.3)",
-            backgroundAttachment: "fixed",
-            backgroundSize: "cover",
-            backgroundPosition: " center center",
-            backgroundColor: "#eee",
-            backgroundImage:
-              " url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Kachari_Bari1.jpg/1200px-Kachari_Bari1.jpg')",
-          }}
-        >
-          <div className="lc-block  my-3 align-self-center w-100 py-5 video___intro">
+      <section>
+        <div className="d-flex text-center py-5 video___bg">
+          <div className="lc-block  my-5 align-self-center w-100 py-5 video___intro">
             <div editable="">
               <h2 className="title">Welcome to Rabindra University</h2>
               {/* <p>

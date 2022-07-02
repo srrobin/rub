@@ -12,8 +12,22 @@ code {
 .area___wrapper {
   padding: 25px 0;
 }
-.bg___primary {
+/* .bg___primary {
   background: #444444 !important;
+} */
+.bg___primary {
+  background: #000000 !important;
+}
+img.img-fluid.footer___logo {
+  width: 80px;
+}
+.footer___logo___tittle p {
+  padding: 0;
+  margin: 0;
+}
+.footer___logo___tittle {
+  margin-top: 30px;
+  margin-left: 10px;
 }
 section,
 h1,

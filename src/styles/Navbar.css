@@ -27,10 +27,12 @@ a.custom__btn:hover {
 .logo___area {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  padding: 12px 11px;
 }
+
 .main___logo {
-  width: 100px;
+  width: 80px;
 }
 .logo___tittle {
 }
